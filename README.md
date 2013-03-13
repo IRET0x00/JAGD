@@ -31,6 +31,15 @@ Threading die reibungslose Arbeit mit der GUI und die gleichzeitige Nutzung
 vom Dorker und AutoPWNer ermöglicht.
 
 
+### Suche über einen oder mehrere Proxies
+
+Egal ob aus Gründen der Anonymität oder weil man das Internet über einen Proxy
+betreten muss, gibt es auch hier eine Lösung. In den Einstellungen kann man im
+Feld "Proxylist" den Pfad zu seiner Proxy-Liste angeben. Für jede Seite wird dann
+der nächste Proxy verwendet und bei Listenende wird wieder von vorne angefangen.
+Das Format der Liste ist wie folgt: "ip:port:user:pwd" oder "ip:port".
+
+
 ### AutoPWNer
 
 Um die verbesserten Resulate gemütlich auszunutzen, wurde der AutoPWNer
@@ -49,6 +58,7 @@ dooring durch SqlMap.
 #### Features:
 - Asynchronous google dorking
 - Language search
+- Proxy-Support
 - Error-based SQLI-Check
 - Subdomain SQLI-Check
 - Useragent SQLI-Check
@@ -61,7 +71,6 @@ dooring durch SqlMap.
 
 
 #### ToDo:
-- Proxy-Support
 - LFI-Scanner
 - RFI-Scanner
 - Boolean-based SQLI-Check
