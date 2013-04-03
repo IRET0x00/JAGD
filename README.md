@@ -76,3 +76,7 @@ dooring durch SqlMap.
 - Boolean-based SQLI-Check
 - New String filtering
 - Safe-mode off
+- Pre-set cookies
+- Pre-set useragent
+- random useragent
+- Pre-set referrer
